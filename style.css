@@ -1,0 +1,45 @@
+.flex {
+  display: flex;
+}
+:root {
+  --main-back-color: #262626;
+}
+.logo {
+  font: 30px sans-serif;
+  font-style: italic;
+  color: seashell;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.margin {
+  margin-left: 18px;
+}
+.main-header {
+  background-color: var(--main-back-color);
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.nav-li {
+  color: whitesmoke;
+  font-weight: bold;
+}
+.main-button {
+  background-color: var(--main-back-color);
+  border-radius: 5px;
+  border: 2px solid aliceblue;
+  color: azure;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-ul {
+  flex-flow: row wrap;
+  align-items: center;
+  align-self: center;
+}
+.phone{
+    width: 350px;
+    height: 500px;
+    border: 2px solid rgb(255, 0, 0);
+}
